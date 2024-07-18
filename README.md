@@ -1,10 +1,11 @@
-# Developments & Innovations in the Video Game Industry
+# Ai development
 
 ## Summary
 
-Over the years - starting as early as 1950, continuing on and growing in both popularity and relevance in culture - Video Games have been a part of many lives all around the world. 
 
-You can vist the finished website here [here](https://sw33ws.github.io/Tracking-Innovation-Video-Games/)
+
+You can vist the finished website here [here](https://FrostyOnyx.github.io/Artificial-Intelligence/)
+/FrostyOnyx/Artificial-Intelligence
 
 ## Table of Contents
 
@@ -18,7 +19,7 @@ You can vist the finished website here [here](https://sw33ws.github.io/Tracking-
 
 ## Installation
 
-Clone the repo onto your local drive, ```git clone git@github.com:sw33ws/Tracking-Innovation-Video-Games.git```
+Clone the repo onto your local drive, ```git clone git@github.com:FrostyOnyx/Artificial-Intelligence.git```
 
 ## Usage
 
