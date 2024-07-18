@@ -1,16 +1,16 @@
-Project on Current Developments and Innovations in Artificial Intelligence
+<h1>Project on Current Developments and Innovations in Artificial Intelligence</h1>
 
-Summary
+<h2>Summary</h2>
 
-Table of Contents
+<h2>Table of Contents</h2>
 
-Project Prototype
+<h2>Project Prototype</h2>
 
-Installation
+<h3>Installation</h3>
 
-Usage
+<h3>Usage</h3>
 
-Contact Info
+<h3>Contact Info</h3>
 
 https://github.com/FrostyOnyx
 
