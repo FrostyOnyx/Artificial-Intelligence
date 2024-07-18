@@ -1,19 +1,30 @@
-<h1>Project on Current Developments and Innovations in Artificial Intelligence</h1>
+# Developments & Innovations in the Video Game Industry
 
-<h2>Summary</h2>
+## Summary
 
-<h2>Table of Contents</h2>
+Over the years - starting as early as 1950, continuing on and growing in both popularity and relevance in culture - Video Games have been a part of many lives all around the world. 
 
-<h2>Project Prototype</h2>
+You can vist the finished website here [here](https://sw33ws.github.io/Tracking-Innovation-Video-Games/)
 
-<h3>Installation</h3>
+## Table of Contents
 
-<h3>Usage</h3>
+- [Installation](#installation)
+- [Usage](#usage)
+- [Contact](#contact-info)
 
-<h3>Contact Info</h3>
+---
 
-https://github.com/FrostyOnyx
+---
 
-https://github.com/sw33ws
+## Installation
 
+Clone the repo onto your local drive, ```git clone git@github.com:sw33ws/Tracking-Innovation-Video-Games.git```
 
+## Usage
+
+First open it in vs code, then open it in the your browser, with a addon like ```open in browser, by TechER```.
+
+## Contact Info
+
+- https://github.com/sw33ws
+- https://github.com/FrostyOnyx
