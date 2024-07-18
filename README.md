@@ -4,8 +4,7 @@
 
 
 
-You can vist the finished website here [here](https://FrostyOnyx.github.io/Artificial-Intelligence/)
-/FrostyOnyx/Artificial-Intelligence
+You can vist the finished website [here](https://FrostyOnyx.github.io/Artificial-Intelligence/)
 
 ## Table of Contents
 
