@@ -1,0 +1,210 @@
+/* Basic page elements */
+:root {
+    --darkColor: #232932;
+    --lightColor: #ffffff;
+    --cyanHighlight: #57c6bb;
+    --purpleLighthigh: #893999;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+*, html, body {
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: var(--lightColor);
+}
+
+h1, h2, h3, h4, h5 {
+    font-family: "Epilogue", sans-serif;
+}
+
+p, a {
+    font-family: "Inter", sans-serif;
+}
+
+/* LOGO */
+
+.logo {
+    color: var(--cyanHighlight);
+    width: 7rem;
+    margin: 1rem;
+    font-size: 3rem;
+    font-weight: 900;
+    text-transform: uppercase;
+    position: fixed;
+    top: .5rem;
+    /* edit a better way then mix=blend-mode */
+    mix-blend-mode: difference;
+}
+
+/* Header */
+
+header {
+    background-color: var(--darkColor);
+    color: var(--lightColor);
+
+    display: grid;
+    justify-items: center;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 3rem;
+    letter-spacing: -1.5px;
+    margin: 150px 0px 30px 0px;
+}
+
+header p {
+    font-size: 1.1rem;
+    max-width: 650px;
+}
+
+.buttonContainer {
+    margin: 50px 50px 100px 50px;
+}
+
+.buttonContainer button {
+    border-radius: 25px;
+    padding: 5px 10px;
+    margin: 5px 10px;
+    border-color: var(--cyanHighlight);
+    background-color: var(--cyanHighlight);
+    width: 200px;
+}
+
+.buttonContainer button a {
+    background-color: var(--cyanHighlight);
+    color: var(--darkColor);
+    text-decoration: none;
+    font-size: 1rem;
+}
+
+.buttonContainer button a i {
+    margin: 0px 3px;
+}
+
+/* ai chat box */
+
+.aiContainer {
+    display: grid;
+    justify-items: center;
+
+    background: var(--lightColor);
+    background-image: linear-gradient(var(--darkColor), var(--darkColor));
+    background-size: 100% 70%;
+    background-repeat: no-repeat;
+}
+
+.aiChatBox {
+    width: 60%;
+    height: 500px;
+    background-color: var(--purpleLighthigh);
+    border-radius: 25px;
+    position: relative;
+}
+
+/* Main */
+
+main {
+    background-color: var(--lightColor);
+    color: var(--darkColor);
+    
+    width: 80%;
+    margin: 100px auto;
+}
+
+main h2 {
+    text-align: center;
+    letter-spacing: -1px;
+}
+
+/* Cards */
+
+.threeCards {
+    margin: 50px 0px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    justify-items: center;
+}
+
+.card {
+    max-width: 400px;
+    border-radius: 8px;
+    box-shadow: 0 4px 22px rgba(0,0,0,0.16);
+    padding: 1.6rem 2rem;
+    margin: 25px;
+    background-color: rgb(249, 250, 254);
+}
+
+/* Center Article */
+
+.centerArticle {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
+}
+
+.centerArticleText {
+    padding-left: 150px;
+}
+
+.centerArticle .centerArticleText h2 {
+    letter-spacing: -1px;
+    text-align: left;
+}
+
+.centerArticle div img {
+    width: 100%;
+}
+
+/* Footer */
+
+footer {
+    background-color: var(--darkColor);
+    color: var(--lightColor);
+    display: grid;
+    justify-items: center;
+    text-align: center;
+    padding-top: 100px;
+}
+
+footer div h1 {
+    font-size: 3rem;
+    letter-spacing: -1.5px;
+}
+
+hr {
+    color: var(--cyanHighlight);
+    width: 100%;
+    margin-bottom: 50px;
+}
+
+.referencesContainer {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+}
+
+.references {
+    text-indent: -36px;
+    padding-left: 36px;
+    margin: 10px;
+    color: var(--lightColor);
+    text-align: left;
+}
+
+@media only screen and (max-width: 1200px) {
+    .centerArticleText {
+        padding: 0;
+    }
+    .logo {
+        font-size: 2rem;
+    }
+}
