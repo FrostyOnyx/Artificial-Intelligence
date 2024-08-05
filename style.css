@@ -46,6 +46,10 @@ p, a {
     /*mix-blend-mode: difference;*/
 }
 
+.logo img {
+    width: 8rem;
+}
+
 /* Header */
 
 header {
@@ -153,7 +157,12 @@ main h2 {
 }
 
 .centerArticleText {
-    padding-left: 150px;
+    /* padding-left: 150px; */
+    /* this is no longer an article but an img */
+}
+
+.centerArticleText img {
+    width: 100%;
 }
 
 .centerArticle .centerArticleText h2 {
@@ -206,5 +215,23 @@ hr {
     }
     .logo {
         font-size: 2rem;
+    }
+    .logo img {
+        width: 5rem;
+    }
+    .centerArticleText img {
+        max-width: 100%;
+    }
+    .centerArticle div img {
+        max-width: 100%;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .centerArticleText img {
+        max-width: 400px;
+    }
+    .centerArticle div img {
+        max-width: 400px;
     }
 }
