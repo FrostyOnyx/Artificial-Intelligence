@@ -43,7 +43,7 @@ p, a {
     position: fixed;
     top: .5rem;
     /* edit a better way then mix=blend-mode */
-    mix-blend-mode: difference;
+    /*mix-blend-mode: difference;*/
 }
 
 /* Header */
