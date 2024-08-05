@@ -105,9 +105,9 @@ header p {
 }
 
 .aiChatBox {
-    width: 60%;
-    height: 500px;
-    background-color: var(--purpleLighthigh);
+    width: 70%; /* was 60% */
+    height: 600px; /* was 500px */
+    /* background-color: var(--purpleLighthigh); */
     border-radius: 25px;
     position: relative;
 }
