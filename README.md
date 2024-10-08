@@ -1,10 +1,13 @@
-# Ai development
+# Artificial Intelligence Innovations Research ChatBot
 
 ## Summary
+Research and Web Development project focusing on Artificial Intelligence innovations and their implementation across various industries. Project is a multimedia webpage featuring an integrated pre-built Chatbot powered by GPT-4.
 
+Tools used: GitHub for version control, OneDrive for file storage, Discord and Zoom for team communication, Microsoft Word for documentation, and Botsonic (with GPT-4) for Chatbot integration. HTML and CSS.
 
+You can vist the finished website by clicking [here](https://FrostyOnyx.github.io/Artificial-Intelligence/).
 
-You can vist the finished website [here](https://FrostyOnyx.github.io/Artificial-Intelligence/)
+---
 
 ## Table of Contents
 
@@ -14,7 +17,7 @@ You can vist the finished website [here](https://FrostyOnyx.github.io/Artificial
 
 ---
 
----
+
 
 ## Installation
 
@@ -26,5 +29,5 @@ First open it in vs code, then open it in the your browser, with a addon like ``
 
 ## Contact Info
 
-- https://github.com/sw33ws
 - https://github.com/FrostyOnyx
+- https://github.com/sw33ws
